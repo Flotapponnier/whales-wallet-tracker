@@ -1,0 +1,31 @@
+{
+  "name": "whale-radar",
+  "version": "1.0.0",
+  "description": "Track and analyze whale wallets with Mobula API - real-time monitoring, PnL, win rates & smart money labels",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "profile": "node src/profile.js",
+    "compare": "node src/compare.js",
+    "watch": "node src/watch.js"
+  },
+  "keywords": [
+    "whale",
+    "wallet",
+    "tracker",
+    "mobula",
+    "crypto",
+    "defi",
+    "solana",
+    "ethereum",
+    "pnl",
+    "trading"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5"
+  }
+}
